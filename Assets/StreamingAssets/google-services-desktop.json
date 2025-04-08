@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646128767313",
+    "project_id": "color-link-unity",
+    "storage_bucket": "color-link-unity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646128767313:android:fb613a9acfeaffaafc8370",
+        "android_client_info": {
+          "package_name": "com.DotmobStudio.ColorLink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNAX05fUxSmg13y9cHvk3KuNd_gaqXXOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
