@@ -45,7 +45,7 @@ namespace Bitberry
 		[MenuItem ("Dotmob/IAP Settings")]
 		public static void Open()
 		{
-			EditorWindow.GetWindow<IAPSettingsWindow>("IAP Settings ©DotmobStudio");
+			EditorWindow.GetWindow<IAPSettingsWindow>("IAP Settings ©BitberryStudio");
 		}
 
 		#endregion
@@ -65,7 +65,7 @@ namespace Bitberry
 
 		private void DrawIAPSettings()
 		{
-			BeginBox("IAP Settings ©DotmobStudio");
+			BeginBox("IAP Settings ©BitberryStudio");
 
 			DrawEnableDisableButtons();
 
