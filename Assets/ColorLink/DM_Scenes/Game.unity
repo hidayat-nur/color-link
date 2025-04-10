@@ -16711,7 +16711,7 @@ MonoBehaviour:
       type: 3}
     packInfos:
     - packId: Tomato
-      packName: Tomato
+      packName: Cherry Crop
       packDescription: Size 5x5
       unlockType: 0
       unlockStarsAmount: 0
@@ -16771,7 +16771,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: bcefb91ddaa034e7c8e3cdc57629863f, type: 3}
       imgLightPack: {fileID: 21300000, guid: 26daf54eb03c441b1bc664602bee98c3, type: 3}
     - packId: Onion
-      packName: Onion
+      packName: Spicy Bulb
       packDescription: Size 6x6
       unlockType: 1
       unlockStarsAmount: 1
@@ -16931,7 +16931,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: 4b9dc1fe282a847e7bd3e6ab5ab308fe, type: 3}
       imgLightPack: {fileID: 21300000, guid: 739ef4260468e43cba4d36885ad19b1f, type: 3}
     - packId: Mushroom
-      packName: Mushroom
+      packName: Forest Fungus
       packDescription: Size 7x7
       unlockType: 1
       unlockStarsAmount: 50
@@ -17091,7 +17091,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: f99674ed3a5124bfeb86ed9557897b50, type: 3}
       imgLightPack: {fileID: 21300000, guid: 59f2f710b8e0c46cdb5033e947519c83, type: 3}
     - packId: Potato
-      packName: Potato
+      packName: Earth Nuggets
       packDescription: Size 8x8
       unlockType: 1
       unlockStarsAmount: 100
@@ -17251,7 +17251,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: c331c75eaa79d43c69bb74259a9c65f1, type: 3}
       imgLightPack: {fileID: 21300000, guid: 2668c9f0fa6ec4de096c0a383fd62b54, type: 3}
     - packId: Radish
-      packName: Radish
+      packName: Crimson Root
       packDescription: Size 9x9
       unlockType: 1
       unlockStarsAmount: 80
@@ -17411,7 +17411,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: 9977d67e6882248b8b3a930c8ecfaa66, type: 3}
       imgLightPack: {fileID: 21300000, guid: 2b2077f12c9f741d68f29b5481b73693, type: 3}
     - packId: Apple
-      packName: Apple
+      packName: Sweet Orchard
       packDescription: Size 10x10
       unlockType: 1
       unlockStarsAmount: 100
@@ -17571,7 +17571,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: dd09035e55de8427895a89f391778c28, type: 3}
       imgLightPack: {fileID: 21300000, guid: 2e139839821fc41beba0401145d37441, type: 3}
     - packId: Watermelon
-      packName: Watermelon
+      packName: Juicy Giant
       packDescription: Size 11x11
       unlockType: 1
       unlockStarsAmount: 250
@@ -17735,7 +17735,7 @@ MonoBehaviour:
       type: 3}
     packInfos:
     - packId: Kitty
-      packName: Kitty
+      packName: Meow Meow Land
       packDescription: Size 6x6
       unlockType: 0
       unlockStarsAmount: 0
@@ -17795,7 +17795,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: bcefb91ddaa034e7c8e3cdc57629863f, type: 3}
       imgLightPack: {fileID: 21300000, guid: 26daf54eb03c441b1bc664602bee98c3, type: 3}
     - packId: Puppy
-      packName: Puppy
+      packName: Barky Buddies
       packDescription: Size 7x7 to 9x9
       unlockType: 1
       unlockStarsAmount: 100
@@ -17955,7 +17955,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: 4b9dc1fe282a847e7bd3e6ab5ab308fe, type: 3}
       imgLightPack: {fileID: 21300000, guid: 739ef4260468e43cba4d36885ad19b1f, type: 3}
     - packId: Cow
-      packName: Cow
+      packName: Moo Moo Fields
       packDescription: Size 10x10 to 13x13
       unlockType: 1
       unlockStarsAmount: 200
@@ -18165,7 +18165,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: f99674ed3a5124bfeb86ed9557897b50, type: 3}
       imgLightPack: {fileID: 21300000, guid: 59f2f710b8e0c46cdb5033e947519c83, type: 3}
     - packId: Duck
-      packName: Duck
+      packName: Quack Splash
       packDescription: SMALL GRIDS
       unlockType: 1
       unlockStarsAmount: 200
@@ -18225,7 +18225,7 @@ MonoBehaviour:
       imgBgPack: {fileID: 21300000, guid: c331c75eaa79d43c69bb74259a9c65f1, type: 3}
       imgLightPack: {fileID: 21300000, guid: 2668c9f0fa6ec4de096c0a383fd62b54, type: 3}
     - packId: Rabbit
-      packName: Rabbit
+      packName: Hoppy Hills
       packDescription: LARGE GRIDS
       unlockType: 0
       unlockStarsAmount: 200
