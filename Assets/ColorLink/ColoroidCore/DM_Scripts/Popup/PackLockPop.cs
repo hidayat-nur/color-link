@@ -1,6 +1,6 @@
-/*Created on 2024
+/*Created on 2025
 *
-*Copyright(c) 2024 dotmobstudio
+*Copyright(c) 2025 bitberrystudio
 * Support : dotmobstudio @gmail.com
  */
 

@@ -1,8 +1,8 @@
 /*
- * Created on 2024
+ * Created on 2025
  *
- * Copyright (c) 2024 dotmobstudio
- * Support : dotmobstudio@gmail.com
+ * Copyright (c) 2025 bitberrystudio
+ * Support : bitberrystudio001@gmail.com
  */
 
 using System.Collections;
