@@ -9,7 +9,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class Screen : AdjustRectTransformForSafeArea
 	{

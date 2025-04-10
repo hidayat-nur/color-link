@@ -11,7 +11,7 @@ using UnityEngine.UI;
 using Gley.MobileAds;
 using System;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class GameManager : SingletonComponent<GameManager>, ISaveable
 	{

@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class PopupManager : SingletonComponent<PopupManager>
 	{
@@ -58,19 +58,19 @@ namespace Dotmob
 
 		public void Show(string id)
 		{
-			Dotmob.ColorLink.GameManager.Instance.StartTiming(false);
+			Bitberry.ColorLink.GameManager.Instance.StartTiming(false);
 			Show(id, null, null);
 		}
 
 		public void Show(string id, object[] inData)
 		{
-			Dotmob.ColorLink.GameManager.Instance.StartTiming(false);
+			Bitberry.ColorLink.GameManager.Instance.StartTiming(false);
 			Show(id, inData, null);
 		}
 
 		public void Show(string id, object[] inData, Popup.PopupClosed popupClosed)
 		{
-			Dotmob.ColorLink.GameManager.Instance.StartTiming(false);
+			Bitberry.ColorLink.GameManager.Instance.StartTiming(false);
 			Popup popup = GetPopupById(id);
 
 			if (popup != null)

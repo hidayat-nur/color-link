@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob.WordBlocks
+namespace Bitberry.WordBlocks
 {
 	public class SettingsPopup : Popup
 	{

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Monetization;
 #endif
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class InvokeOnMainThread : MonoBehaviour
 	{

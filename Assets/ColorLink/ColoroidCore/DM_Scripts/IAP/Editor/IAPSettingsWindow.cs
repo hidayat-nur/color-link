@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class IAPSettingsWindow : CustomEditorWindow
 	{

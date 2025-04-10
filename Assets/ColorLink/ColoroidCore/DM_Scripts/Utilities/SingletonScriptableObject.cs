@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public abstract class SingletonScriptableObject<T> : ScriptableObject where T : ScriptableObject
 	{

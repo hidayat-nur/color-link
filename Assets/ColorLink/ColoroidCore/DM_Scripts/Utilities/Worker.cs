@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public abstract class Worker
 	{

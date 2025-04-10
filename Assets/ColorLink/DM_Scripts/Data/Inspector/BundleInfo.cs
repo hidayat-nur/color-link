@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	[System.Serializable]
 	public class BundleInfo

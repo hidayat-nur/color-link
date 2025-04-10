@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Gley.Localization;
-using Dotmob;
+using Bitberry;
 using UnityEngine.UI;
 
 public class RewardAdGranted : Popup

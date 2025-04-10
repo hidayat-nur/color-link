@@ -7,7 +7,7 @@ using UnityEngine.Purchasing;
 using UnityEngine.Purchasing.Extension; 
 #endif
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class IAPTestScene : MonoBehaviour
 	{

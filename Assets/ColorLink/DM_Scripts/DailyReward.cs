@@ -12,7 +12,7 @@ using Gley.DailyRewards.API;
 using EasyUI.Toast;
 
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 
 

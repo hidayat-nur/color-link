@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class Popup : UIMonoBehaviour
 	{

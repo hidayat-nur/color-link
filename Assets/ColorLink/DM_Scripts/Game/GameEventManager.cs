@@ -9,7 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class GameEventManager : EventManager<GameEventManager>
 	{

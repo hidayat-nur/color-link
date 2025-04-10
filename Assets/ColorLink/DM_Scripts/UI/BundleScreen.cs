@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using EasyUI.Toast;
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class BundleScreen : Screen
 	{

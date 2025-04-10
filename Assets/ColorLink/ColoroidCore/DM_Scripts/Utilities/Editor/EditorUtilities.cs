@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public static class EditorUtilities
 	{

@@ -8,7 +8,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class ScreenManager : SingletonComponent<ScreenManager>
 	{
@@ -102,7 +102,7 @@ namespace Dotmob
 					if (CurrentScreenId == "pack_levels")
 					{
 						//Debug.Log("CURRENT SCENE: " + screenId);
-						Dotmob.ColorLink.GameManager.Instance.StartTiming(false);
+						Bitberry.ColorLink.GameManager.Instance.StartTiming(false);
 					}
 				}
 			}
@@ -135,7 +135,7 @@ namespace Dotmob
 			string screenId = backStack[backStack.Count - 1];
 
 
-			Dotmob.ColorLink.GameManager.Instance.StartTiming(false);
+			Bitberry.ColorLink.GameManager.Instance.StartTiming(false);
 
 			// Remove the screen from the back stack
 			backStack.RemoveAt(backStack.Count - 1);

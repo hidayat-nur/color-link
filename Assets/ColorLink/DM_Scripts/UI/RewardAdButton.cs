@@ -12,7 +12,7 @@ using Gley.MobileAds;
 using System;
 using EasyUI.Toast;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	[RequireComponent(typeof(Button))]
 	public class RewardAdButton : MonoBehaviour

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public abstract class CustomEditorWindow : EditorWindow
 	{

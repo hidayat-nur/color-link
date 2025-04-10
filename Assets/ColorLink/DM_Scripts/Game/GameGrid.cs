@@ -10,7 +10,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Gley.Localization;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class GameGrid : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 	{

@@ -3201,7 +3201,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 186157575}
-        m_TargetAssemblyTypeName: Dotmob.Popup, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.Popup, Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 6
         m_Arguments:
@@ -3552,7 +3552,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5319412}
-        m_TargetAssemblyTypeName: Dotmob.Popup, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.Popup, Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 6
         m_Arguments:
@@ -8357,7 +8357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1862134155}
-        m_TargetAssemblyTypeName: Dotmob.Popup, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.Popup, Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 6
         m_Arguments:
@@ -10121,7 +10121,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1175414557}
-        m_TargetAssemblyTypeName: Dotmob.ColorLink.GameManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.ColorLink.GameManager, Assembly-CSharp
         m_MethodName: ResetBoard
         m_Mode: 1
         m_Arguments:
@@ -13352,7 +13352,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1923929778}
-        m_TargetAssemblyTypeName: Dotmob.Popup, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.Popup, Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 6
         m_Arguments:
@@ -18597,7 +18597,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 949123469}
-        m_TargetAssemblyTypeName: Dotmob.ColorLink.DailyReward, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.ColorLink.DailyReward, Assembly-CSharp
         m_MethodName: ShowRewardPannel
         m_Mode: 1
         m_Arguments:
@@ -23458,7 +23458,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 310126938}
-        m_TargetAssemblyTypeName: Dotmob.Popup, Assembly-CSharp
+        m_TargetAssemblyTypeName: Bitberry.Popup, Assembly-CSharp
         m_MethodName: Hide
         m_Mode: 6
         m_Arguments:

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Dotmob
+namespace Bitberry
 {
 	[CustomEditor(typeof(IAPManager))]
 	public class IAPManagerEditor : Editor

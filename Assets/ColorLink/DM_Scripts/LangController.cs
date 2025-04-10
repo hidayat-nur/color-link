@@ -36,7 +36,7 @@ using UnityEngine.UI;
 		//Debug.Log("......RefreshText ALL TEXT........ ");
 
 
-		Dotmob.ColorLink.GameManager.Instance.UpdateTextUI();
+		Bitberry.ColorLink.GameManager.Instance.UpdateTextUI();
 	
 			//UIController.Instance.UpdateUI();
 			//UIController.Instance.OnNewLevelStarted();

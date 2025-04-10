@@ -11,7 +11,7 @@ using UnityEditor;
 
 using System.Threading;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class LevelCreatorWindow : EditorWindow
 	{

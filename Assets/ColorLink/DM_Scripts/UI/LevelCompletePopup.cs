@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Gley.Localization;
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class LevelCompletePopup : Popup
 	{

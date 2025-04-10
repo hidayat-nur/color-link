@@ -11,7 +11,7 @@ using UnityEngine.Purchasing.Extension;
 
 #pragma warning disable 0414 // Reason: Some inspector variables are only used in specific platforms and their usages are removed using #if blocks
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class IAPManager : SingletonComponent<IAPManager>, ISaveable
 	#if DM_IAP

@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Gley.Localization;
 
-namespace Dotmob.ColorLink
+namespace Bitberry.ColorLink
 {
 	public class TopBar : MonoBehaviour
 	{

@@ -7,7 +7,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace Dotmob
+namespace Bitberry
 {
 	/// <summary>
 	/// Gets a static instance of the Component that extends this class and makes it accessible through the Instance property.

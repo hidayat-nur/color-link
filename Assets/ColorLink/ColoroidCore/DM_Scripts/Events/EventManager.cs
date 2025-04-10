@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public abstract class EventManager<T> : SingletonComponent<T> where T : Object
 	{

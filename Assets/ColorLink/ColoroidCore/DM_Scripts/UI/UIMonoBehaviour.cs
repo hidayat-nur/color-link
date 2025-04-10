@@ -8,7 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class UIMonoBehaviour : MonoBehaviour
 	{

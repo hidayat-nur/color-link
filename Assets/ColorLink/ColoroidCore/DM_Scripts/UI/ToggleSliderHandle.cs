@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Dotmob
+namespace Bitberry
 {
 	public class ToggleSliderHandle : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 	{

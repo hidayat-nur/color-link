@@ -6,7 +6,7 @@
  */
 using UnityEngine;
 using UnityEngine.UI;
-using Dotmob;
+using Bitberry;
 using Gley.Localization;
 public class TimeoutPopup : Popup
 {
@@ -27,7 +27,7 @@ public class TimeoutPopup : Popup
 
     public void OnClickContinue()
     {
-        Dotmob.ColorLink.GameManager.Instance.ResetBoard();
+        Bitberry.ColorLink.GameManager.Instance.ResetBoard();
 
     }
 

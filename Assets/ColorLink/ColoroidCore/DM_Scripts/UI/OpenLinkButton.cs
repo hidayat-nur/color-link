@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Dotmob
+namespace Bitberry
 {
 	[RequireComponent(typeof(Button))]
 	public class OpenLinkButton : MonoBehaviour
