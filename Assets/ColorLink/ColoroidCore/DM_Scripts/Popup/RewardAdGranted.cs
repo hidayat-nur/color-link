@@ -1,7 +1,7 @@
 /*Created on 2025
 *
 *Copyright(c) 2025 bitberrystudio
-* Support : dotmobstudio @gmail.com
+* Support : bitberrystudio001@gmail.com
  */
 
 using System.Collections;
