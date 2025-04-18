@@ -20,7 +20,7 @@ MonoBehaviour:
       platform: 0
       enabled: 1
       appId:
-        id: ca-app-pub-3940256099942544~3347511713
+        id: 'ca-app-pub-8502102703983917~8781371514 '
         displayName: App ID
         required: 1
       idBanner:
@@ -47,7 +47,7 @@ MonoBehaviour:
         id: 
         displayName: App Open ID
         required: 1
-      testMode: 1
+      testMode: 0
       testDevice: 
       debugGeography: 0
     directedForChildren: 0
