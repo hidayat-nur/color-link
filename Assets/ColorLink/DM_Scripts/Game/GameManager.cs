@@ -10,6 +10,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Gley.MobileAds;
 using System;
+using Firebase.RemoteConfig;
 
 namespace Bitberry.ColorLink
 {
@@ -111,9 +112,13 @@ namespace Bitberry.ColorLink
             }
             else
             {
-				
-					Gley.MobileAds.API.ShowAppOpen();
-				
+					bool showAppOpen = Firebase.RemoteConfig.FirebaseRemoteConfig.DefaultInstance.GetValue("showAdOpen").BooleanValue;
+					// Debug.Log("showAdOpen from Remote Config: " + showAppOpen);
+
+					if (showAppOpen)
+					{
+							Gley.MobileAds.API.ShowAppOpen();
+					}				
 			}
 		}
 
@@ -152,7 +157,17 @@ namespace Bitberry.ColorLink
 			if (NumLevelsTillAd <= 0)
 			{
 				NumLevelsTillAd = numLevelsBetweenAds;
-				API.ShowInterstitial();
+
+				bool showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                            .DefaultInstance.GetValue("showAdInter").BooleanValue;
+
+        // Debug.Log("showAdInter from Remote Config: " + showAdInter);
+
+        if (showAdInter)
+        {
+						API.ShowInterstitial();
+        }
+				
 			}
 		}
 
