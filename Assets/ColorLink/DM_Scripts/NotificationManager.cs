@@ -11,7 +11,7 @@ public class NotificationManager : MonoBehaviour
 		RequestAuthorization();
 
 		// Replace 'YOUR_ONESIGNAL_APP_ID' with your OneSignal App ID from app.onesignal.com
-		OneSignal.Initialize("5cff07b2-03f9-4f8a-98c2-72284f471e3a");
+		OneSignal.Initialize("765a0604-86de-4c8b-a6e8-bf8ebe309028");
 	}
 
 	public void RequestAuthorization()
