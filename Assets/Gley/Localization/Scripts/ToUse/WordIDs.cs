@@ -33,7 +33,7 @@ namespace Gley.Localization
 		Timeout_continue = 28,
 		Timeout_des = 29,
 		Timeout_title = 27,
-		winpop_next = 31,
 		winpop_des = 32,
+		winpop_next = 31,
 	}
 }
