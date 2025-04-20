@@ -4,7 +4,7 @@ namespace Gley.MobileAds.Editor
 {
     public class SettingsWindowProperties : ISettingsWindowProperties
     {
-        public const string menuItem = "Dotmob/Mobile Ads";
+        public const string menuItem = "Bitberry/Mobile Ads";
         public const string admobPatch = "Gley/MobileAds/Patches/AdmobPatch.unitypackage";
         public const string testScene = "Example/Scenes/MobileAdsTest.unity";
         public const string exampleScene = "Example/Scenes/MobileAdsExample.unity";

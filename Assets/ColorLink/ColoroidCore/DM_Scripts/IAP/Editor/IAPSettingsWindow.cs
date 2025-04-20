@@ -42,7 +42,7 @@ namespace Bitberry
 
 		#region Public Methods
 
-		[MenuItem ("Dotmob/IAP Settings")]
+		[MenuItem ("Bitberry/IAP Settings")]
 		public static void Open()
 		{
 			EditorWindow.GetWindow<IAPSettingsWindow>("IAP Settings ©BitberryStudio");

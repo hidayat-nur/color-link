@@ -4,7 +4,7 @@ namespace Gley.DailyRewards.Editor
 {
     public class SettingsWindowProperties : ISettingsWindowProperties
     {
-        internal const string menuItem = "Dotmob/Daily Rewards";
+        internal const string menuItem = "Bitberry/Daily Rewards";
 
         internal const string GLEY_DAILY_REWARDS = "GLEY_DAILY_REWARDS";
         internal const string documentation = "https://gley.gitbook.io/daily-rewards/";

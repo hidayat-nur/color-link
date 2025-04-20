@@ -4,7 +4,7 @@ namespace Gley.Localization.Editor
 {
     public class SettingsWindowProperties : ISettingsWindowProperties
     {
-        public const string menuItem = "Dotmob/Localization";
+        public const string menuItem = "Bitberry/Localization";
 
         public const string GLEY_TMPRO_LOCALIZATION = "GLEY_TMPRO_LOCALIZATION";
         public const string GLEY_NGUI_LOCALIZATION = "GLEY_NGUI_LOCALIZATION";

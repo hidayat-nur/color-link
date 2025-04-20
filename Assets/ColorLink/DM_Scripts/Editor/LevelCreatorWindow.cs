@@ -69,7 +69,7 @@ namespace Bitberry.ColorLink
 
 		#region Unity Methods
 
-		[MenuItem ("Dotmob/Level Editor")]
+		[MenuItem ("Bitberry/Level Editor")]
 		public static void Init()
 		{
 			EditorWindow.GetWindow<LevelCreatorWindow>("Level Editor");
