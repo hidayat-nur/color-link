@@ -66,9 +66,14 @@ namespace Bitberry.ColorLink
                                             int currentAppVersion = 3; // fallback kalau di Editor atau platform lain
                                             #endif
 
+
+                                            // Debug.Log($"Remote Config versionApp: {remoteVersion}");
+                                            // Debug.Log($"Current App Version: {currentAppVersion}");
+
                                             if (remoteVersion > currentAppVersion)
                                             {
-                                                PopupManager.Instance.Show("update_app");
+                                                Debug.Log("📢 Triggering update_app popup...");
+                                                // PopupManager.Instance.Show("update_app");
                                             }
                                             else
                                             {
