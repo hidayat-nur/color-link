@@ -24276,6 +24276,8 @@ MonoBehaviour:
     popup: {fileID: 5319412}
   - popupId: time_out
     popup: {fileID: 186157575}
+  - popupId: update_app
+    popup: {fileID: 813364099}
 --- !u!4 &1497575632
 Transform:
   m_ObjectHideFlags: 0
