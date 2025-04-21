@@ -31,4 +31,11 @@ public class UpdateAppPopup : Popup
 
         }
     }
+
+    [SerializeField] private string playStoreUrl = "https://play.google.com/store/apps/details?id=com.bitberrystudio.coloroid";
+    public void OpenStore()
+    {
+        Application.OpenURL(playStoreUrl);
+    }
+
 }

@@ -11386,6 +11386,7 @@ MonoBehaviour:
   Header: {fileID: 1358864495}
   Des: {fileID: 389298619}
   Continue: {fileID: 45659814}
+  playStoreUrl: https://play.google.com/store/apps/details?id=com.bitberry.colorlink
 --- !u!1 &813816957
 GameObject:
   m_ObjectHideFlags: 0
@@ -24799,10 +24800,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Bitberry.Popup, Assembly-CSharp
-        m_MethodName: Hide
-        m_Mode: 6
+      - m_Target: {fileID: 813364099}
+        m_TargetAssemblyTypeName: UpdateAppPopup, Assembly-CSharp
+        m_MethodName: OpenStore
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
