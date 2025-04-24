@@ -47,7 +47,7 @@ MonoBehaviour:
         id: ca-app-pub-8502102703983917/7461746525
         displayName: App Open ID
         required: 1
-      testMode: 0
+      testMode: 1
       testDevice: 
       debugGeography: 0
     directedForChildren: 0
