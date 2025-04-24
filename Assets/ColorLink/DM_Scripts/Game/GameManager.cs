@@ -158,16 +158,8 @@ namespace Bitberry.ColorLink
 			{
 				NumLevelsTillAd = numLevelsBetweenAds;
 
-				bool showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
-                            .DefaultInstance.GetValue("showAdInter").BooleanValue;
-
-        // Debug.Log("showAdInter from Remote Config: " + showAdInter);
-
-        if (showAdInter)
-        {
-						API.ShowInterstitial();
-        }
-				
+				// Debug.Log("showAdInter from Remote Config: " + showAdInter);
+				API.ShowInterstitial();
 			}
 		}
 

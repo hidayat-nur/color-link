@@ -6,6 +6,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using Firebase.RemoteConfig;
 
 namespace Gley.MobileAds.Internal
 {
@@ -392,7 +393,10 @@ namespace Gley.MobileAds.Internal
         /// <param name="InterstitialClosed">callback triggered when interstitial video is closed</param>
         public void ShowInterstitial(UnityAction InterstitialClosed)
         {
-            if (!IsInitialized())
+            bool showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                    .DefaultInstance.GetValue("showAdInter").BooleanValue;
+
+            if (!IsInitialized() || !showAdInter)
             {
                 return;
             }
@@ -446,7 +450,10 @@ namespace Gley.MobileAds.Internal
         /// <param name="CompleteMethod">callback triggered when video reward finished - if bool param is true => video was not skipped</param>
         public void ShowRewardedVideo(UnityAction<bool> CompleteMethod)
         {
-            if (!IsInitialized())
+            bool showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                    .DefaultInstance.GetValue("showAdReward").BooleanValue;
+
+            if (!IsInitialized() || !showAdReward)
             {
                 return;
             }
@@ -465,7 +472,10 @@ namespace Gley.MobileAds.Internal
 
         public void ShowRewardedInterstitial(UnityAction<bool> CompleteMethod)
         {
-            if (!IsInitialized())
+            bool showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                    .DefaultInstance.GetValue("showAdReward").BooleanValue;
+
+            if (!IsInitialized() || !showAdReward)
             {
                 return;
             }

@@ -285,10 +285,19 @@ namespace Gley.MobileAds.Internal
 
         private void LoadRewardedVideo()
         {
-            rewardedAvailable = false;
-            GleyLogger.AddLog($"Loading Rewarded Video Ad: {rewardedVideoAdPlacement}");
+            bool showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                    .DefaultInstance.GetValue("showAdReward").BooleanValue;
 
-            Advertisement.Load(rewardedVideoAdPlacement, this);
+            if (showAdReward)
+            {
+                rewardedAvailable = false;
+                GleyLogger.AddLog($"Loading Rewarded Video Ad: {rewardedVideoAdPlacement}");
+                Advertisement.Load(rewardedVideoAdPlacement, this);
+            }
+            else
+            {
+                GleyLogger.AddLog("Interstitial ads are disabled by showAdReward flag.");
+            }
         }
         #endregion
 
