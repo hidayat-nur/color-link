@@ -3,6 +3,7 @@ using UnityEngine.Events;
 using UnityEngine;
 using UnityEngine.Advertisements;
 using BannerPosition = Gley.MobileAds.BannerPosition;
+using Firebase.RemoteConfig;
 
 namespace Gley.MobileAds.Internal
 {
@@ -234,10 +235,23 @@ namespace Gley.MobileAds.Internal
 
         private void LoadInterstitialAd()
         {
-            interstitialAvailable = false;
-            GleyLogger.AddLog($"Loading Interstitial Ad: {videoAdPlacement}");
-            Advertisement.Load(videoAdPlacement, this);
+            // Mendapatkan nilai flag showAdInter dari Firebase Remote Config
+            bool showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                    .DefaultInstance.GetValue("showAdInter").BooleanValue;
+
+            // Memastikan hanya memuat iklan jika flag showAdInter bernilai true
+            if (showAdInter)
+            {
+                interstitialAvailable = false;
+                GleyLogger.AddLog($"Loading Interstitial Ad: {videoAdPlacement}");
+                Advertisement.Load(videoAdPlacement, this);
+            }
+            else
+            {
+                GleyLogger.AddLog("Interstitial ads are disabled by showAdInter flag.");
+            }
         }
+
 
         #endregion
 
