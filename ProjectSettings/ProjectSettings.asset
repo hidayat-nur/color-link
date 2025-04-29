@@ -830,7 +830,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: GLEY_LOCALIZATION;GLEY_ADMOB;GLEY_PATCH_ADMOB;GLEY_DAILY_REWARDS;DM_IAP
     Windows Store Apps: 
-    iPhone: BBG_IAP;DM_IAP
+    iPhone: BBG_IAP;DM_IAP;GLEY_ADMOB
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
