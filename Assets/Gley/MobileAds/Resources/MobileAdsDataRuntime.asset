@@ -49,6 +49,7 @@ MonoBehaviour:
         required: 1
       testMode: 1
       testDevice: 
+      debugGeography: 0
     directedForChildren: 0
   iOSAdvertiser:
     advertiser: 20
@@ -60,7 +61,7 @@ MonoBehaviour:
         displayName: App ID
         required: 1
       idBanner:
-        id: 
+        id: ca-app-pub-8502102703983917/2738872617
         displayName: Banner ID
         required: 1
       idMRec:
@@ -68,11 +69,11 @@ MonoBehaviour:
         displayName: MRec ID
         required: 1
       idInterstitial:
-        id: 
+        id: ca-app-pub-8502102703983917/2068772862
         displayName: Interstitial ID
         required: 1
       idRewarded:
-        id: 
+        id: ca-app-pub-8502102703983917/7200845897
         displayName: Rewarded Video ID
         required: 1
       idRewardedInterstitial:
@@ -80,11 +81,12 @@ MonoBehaviour:
         displayName: Rewarded Interstitial ID
         required: 1
       idOpenApp:
-        id: 
+        id: ca-app-pub-8502102703983917/5887764229
         displayName: App Open ID
         required: 1
       testMode: 1
       testDevice: 
+      debugGeography: 0
     directedForChildren: 0
   debugMode: 0
   enableATT: 0

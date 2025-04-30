@@ -56,6 +56,7 @@ MonoBehaviour:
         required: 1
       testMode: 1
       testDevice: 
+      debugGeography: 0
     - platform: 1
       enabled: 1
       appId:
@@ -63,7 +64,7 @@ MonoBehaviour:
         displayName: App ID
         required: 1
       idBanner:
-        id: 
+        id: ca-app-pub-8502102703983917/2738872617
         displayName: Banner ID
         required: 1
       idMRec:
@@ -71,11 +72,11 @@ MonoBehaviour:
         displayName: MRec ID
         required: 1
       idInterstitial:
-        id: 
+        id: ca-app-pub-8502102703983917/2068772862
         displayName: Interstitial ID
         required: 1
       idRewarded:
-        id: 
+        id: ca-app-pub-8502102703983917/7200845897
         displayName: Rewarded Video ID
         required: 1
       idRewardedInterstitial:
@@ -83,11 +84,12 @@ MonoBehaviour:
         displayName: Rewarded Interstitial ID
         required: 1
       idOpenApp:
-        id: 
+        id: ca-app-pub-8502102703983917/5887764229
         displayName: App Open ID
         required: 1
       testMode: 1
       testDevice: 
+      debugGeography: 0
   - advertiser: 30
     useSDK: 0
     preprocessorDirective: GLEY_APPLOVIN
@@ -131,6 +133,7 @@ MonoBehaviour:
         required: 1
       testMode: 0
       testDevice: 
+      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -163,6 +166,7 @@ MonoBehaviour:
         required: 1
       testMode: 0
       testDevice: 
+      debugGeography: 0
   - advertiser: 60
     useSDK: 0
     preprocessorDirective: GLEY_VUNGLE
@@ -206,6 +210,7 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
+      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -238,6 +243,7 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
+      debugGeography: 0
   - advertiser: 40
     useSDK: 0
     preprocessorDirective: GLEY_LEVELPLAY
@@ -281,6 +287,7 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
+      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -313,6 +320,7 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
+      debugGeography: 0
   - advertiser: 50
     useSDK: 0
     preprocessorDirective: GLEY_UNITYADS
@@ -356,6 +364,7 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
+      debugGeography: 0
     - platform: 1
       enabled: 0
       appId:
@@ -388,6 +397,7 @@ MonoBehaviour:
         required: 0
       testMode: 0
       testDevice: 
+      debugGeography: 0
   debugMode: 0
   usePlaymaker: 0
   useUnityVisualScripting: 0
