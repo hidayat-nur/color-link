@@ -7,20 +7,22 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:470806629215:android:062b95d91d112c8b4484ea",
+        "mobilesdk_app_id": "1:470806629215:ios:81163c7f97939ddc4484ea",
         "android_client_info": {
           "package_name": "com.bitberrystudio.coloroid"
         }
       },
-      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDaSnyw1qmXB-uQVoaBMO3Rq5J-Qx0C51c"
+          "current_key": "AIzaSyB1EQinFsOI6-WoB2FpeMIjF6VqsMTTkFk"
         }
       ],
       "services": {
+        "analytics_service": {
+          "status": 0
+        },
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "status": 1
         }
       }
     }
