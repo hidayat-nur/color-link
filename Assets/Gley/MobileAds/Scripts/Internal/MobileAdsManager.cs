@@ -393,13 +393,21 @@ namespace Gley.MobileAds.Internal
         /// <param name="InterstitialClosed">callback triggered when interstitial video is closed</param>
         public void ShowInterstitial(UnityAction InterstitialClosed)
         {
-            bool showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
-                                    .DefaultInstance.GetValue("showAdInter").BooleanValue;
+            bool showAdInter;
+
+            #if UNITY_IOS
+            showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                            .DefaultInstance.GetValue("showAdInterIos").BooleanValue;
+            #else
+            showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                            .DefaultInstance.GetValue("showAdInter").BooleanValue;
+            #endif
 
             if (!IsInitialized() || !showAdInter)
             {
                 return;
             }
+
             //if ads are disabled by user -> do nothing
             if (CanShowAds() == false)
             {
@@ -450,13 +458,21 @@ namespace Gley.MobileAds.Internal
         /// <param name="CompleteMethod">callback triggered when video reward finished - if bool param is true => video was not skipped</param>
         public void ShowRewardedVideo(UnityAction<bool> CompleteMethod)
         {
-            bool showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
-                                    .DefaultInstance.GetValue("showAdReward").BooleanValue;
+            bool showAdReward;
+
+            #if UNITY_IOS
+            showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdRewardIos").BooleanValue;
+            #else
+            showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdReward").BooleanValue;
+            #endif
 
             if (!IsInitialized() || !showAdReward)
             {
                 return;
             }
+
 
             if (selectedAdvertiser.advertiserScript.IsRewardedVideoAvailable())
             {
@@ -472,13 +488,21 @@ namespace Gley.MobileAds.Internal
 
         public void ShowRewardedInterstitial(UnityAction<bool> CompleteMethod)
         {
-            bool showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
-                                    .DefaultInstance.GetValue("showAdReward").BooleanValue;
+            bool showAdReward;
+
+            #if UNITY_IOS
+            showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdRewardIos").BooleanValue;
+            #else
+            showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdReward").BooleanValue;
+            #endif
 
             if (!IsInitialized() || !showAdReward)
             {
                 return;
             }
+
 
             if (selectedAdvertiser.advertiserScript.IsRewardedInterstitialAvailable())
             {

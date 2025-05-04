@@ -236,8 +236,15 @@ namespace Gley.MobileAds.Internal
         private void LoadInterstitialAd()
         {
             // Mendapatkan nilai flag showAdInter dari Firebase Remote Config
-            bool showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
-                                    .DefaultInstance.GetValue("showAdInter").BooleanValue;
+            bool showAdInter;
+
+            #if UNITY_IOS
+            showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdInterIos").BooleanValue;
+            #else
+            showAdInter = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdInter").BooleanValue;
+            #endif
 
             // Memastikan hanya memuat iklan jika flag showAdInter bernilai true
             if (showAdInter)
@@ -250,6 +257,7 @@ namespace Gley.MobileAds.Internal
             {
                 GleyLogger.AddLog("Interstitial ads are disabled by showAdInter flag.");
             }
+
         }
 
 
@@ -285,8 +293,15 @@ namespace Gley.MobileAds.Internal
 
         private void LoadRewardedVideo()
         {
-            bool showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
-                                    .DefaultInstance.GetValue("showAdReward").BooleanValue;
+            bool showAdReward;
+
+            #if UNITY_IOS
+            showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdRewardIos").BooleanValue;
+            #else
+            showAdReward = Firebase.RemoteConfig.FirebaseRemoteConfig
+                                .DefaultInstance.GetValue("showAdReward").BooleanValue;
+            #endif
 
             if (showAdReward)
             {
@@ -296,8 +311,9 @@ namespace Gley.MobileAds.Internal
             }
             else
             {
-                GleyLogger.AddLog("Interstitial ads are disabled by showAdReward flag.");
+                GleyLogger.AddLog("Rewarded ads are disabled by showAdReward flag.");
             }
+
         }
         #endregion
 

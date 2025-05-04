@@ -40,6 +40,11 @@ namespace Bitberry.ColorLink
             defaults.Add("showAdNative", "false");
             defaults.Add("showAdOpen", "false");
             defaults.Add("showAdReward", "false");
+            defaults.Add("showAdBannerIos", "false");
+            defaults.Add("showAdInterIos", "false");
+            defaults.Add("showAdNativeIos", "false");
+            defaults.Add("showAdOpenIos", "false");
+            defaults.Add("showAdRewardIos", "false");
             defaults.Add("versionApp", "1");
 
             FirebaseRemoteConfig.DefaultInstance.SetDefaultsAsync(defaults).ContinueWithOnMainThread(defaultsTask => {

@@ -112,13 +112,23 @@ namespace Bitberry.ColorLink
             }
             else
             {
-					bool showAppOpen = Firebase.RemoteConfig.FirebaseRemoteConfig.DefaultInstance.GetValue("showAdOpen").BooleanValue;
+					bool showAppOpen;
+
+					#if UNITY_IOS
+					showAppOpen = Firebase.RemoteConfig.FirebaseRemoteConfig
+													.DefaultInstance.GetValue("showAdOpenIos").BooleanValue;
+					#else
+					showAppOpen = Firebase.RemoteConfig.FirebaseRemoteConfig
+													.DefaultInstance.GetValue("showAdOpen").BooleanValue;
+					#endif
+
 					// Debug.Log("showAdOpen from Remote Config: " + showAppOpen);
 
 					if (showAppOpen)
 					{
 							Gley.MobileAds.API.ShowAppOpen();
-					}				
+					}
+		
 			}
 		}
 

@@ -29,8 +29,15 @@ public class AdManager : MonoBehaviour
 
     private void OnInitialized()
     {
-        bool showBanner = FirebaseRemoteConfig.DefaultInstance.GetValue("showAdBanner").BooleanValue;
-        Debug.Log("showAdBanner from Remote Config: " + showBanner);
+        bool showBanner;
+
+        #if UNITY_IOS
+            showBanner = FirebaseRemoteConfig.DefaultInstance.GetValue("showAdBannerIos").BooleanValue;
+        #else
+            showBanner = FirebaseRemoteConfig.DefaultInstance.GetValue("showAdBanner").BooleanValue;
+        #endif
+
+        Debug.Log("showAdBanner (platform-specific) from Remote Config: " + showBanner);
 
         if (showBanner)
         {
